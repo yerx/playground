@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from "react";
-import "./App.css";
+import React, { useState, useEffect } from 'react';
+import './App.css';
+import Home from './Home';
 
 const App: React.FC = () => {
-  return (
-    <main className="App">
-      <h1>let's do this</h1>
-    </main>
-  );
+    return (
+        <div>
+            <Home />
+        </div>
+    );
 };
 
 export default App;
